@@ -11,4 +11,7 @@
 
 -[x] **3-print_alphabets**
 - Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+-[x] **4-print_alphabt**
+- Write a program that prints the alphabet in lowercase (except `e` and `q`), followed by a new line.
  
