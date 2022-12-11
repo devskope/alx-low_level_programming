@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	/* initialize i to ascii 'a' 92 */
+	/* initialize i to ascii 'a' 97 */
 	int i;
 
 	for (i = 97; i <= 122; i++)
