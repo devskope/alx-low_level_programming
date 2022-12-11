@@ -14,4 +14,7 @@
 
 -[x] **4-print_alphabt**
 - Write a program that prints the alphabet in lowercase (except `e` and `q`), followed by a new line.
+
+-[x] **5-print_numbers**
+- Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
  
