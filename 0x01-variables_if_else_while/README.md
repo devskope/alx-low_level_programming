@@ -23,4 +23,7 @@
 
 - [x] **7-print_tebahpla**
 - Write a program that prints the lowercase alphabet in reverse, followed by a new line.
+
+- [x] **8-print_base16**
+- Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
  
