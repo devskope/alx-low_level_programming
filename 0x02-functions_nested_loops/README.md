@@ -15,19 +15,22 @@
 - [x] **3-islower**
 - Write a function that checks for lowercase character
 - Prototype: `int _islower(int c);`
-- Returns `1` if c is lowercase
+- Returns `1` if `c` is lowercase
 - Returns `0` otherwise
 
 - [x] **4-isalpha**
 - Write a function that checks for alphabetic character
 - Prototype: `int _isalpha(int c);`
-- Returns `1` if c is a letter
+- Returns `1` if `c` is a letter
 - Returns `0` otherwise
 
 - [x] **5-sign**
 - Write a function that prints the sign of a number
 - Prototype: `int print_sign(int n);`
-- Returns 1 and prints + if n is greater than zero
-- Returns 0 and prints 0 if n is zero
-- Returns -1 and prints - if n is less than zero
+- Returns `1` and prints `+` if `n` is greater than zero
+- Returns `0` and prints `0` if `n` is zero
+- Returns `-1` and prints `-` if `n` is less than zero
 
+- [x] **6-abs**
+- Write a function that computes the absolute value of an integer.
+- Prototype: `int _abs(int);`
