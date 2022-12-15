@@ -18,3 +18,6 @@ int print_sign(int n);
 
 /* compute the absolute value of an integer */
 int _abs(int);
+
+/* print last digit of of number */
+int print_last_digit(int);

@@ -34,3 +34,8 @@
 - [x] **6-abs**
 - Write a function that computes the absolute value of an integer.
 - Prototype: `int _abs(int);`
+
+- [x] **7-print_last_digit**
+- Write a function that prints the last digit of a number
+- Prototype: `int print_last_digit(int);`
+- Returns the value of the last digit
