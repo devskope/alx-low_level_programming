@@ -18,8 +18,16 @@
 - Returns `1` if c is lowercase
 - Returns `0` otherwise
 
-- [x] **3-isalpha**
+- [x] **4-isalpha**
 - Write a function that checks for alphabetic character
 - Prototype: `int _isalpha(int c);`
 - Returns `1` if c is a letter
 - Returns `0` otherwise
+
+- [x] **5-sign**
+- Write a function that prints the sign of a number
+- Prototype: `int print_sign(int n);`
+- Returns 1 and prints + if n is greater than zero
+- Returns 0 and prints 0 if n is zero
+- Returns -1 and prints - if n is less than zero
+

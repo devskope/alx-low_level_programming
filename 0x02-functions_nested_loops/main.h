@@ -12,3 +12,6 @@ int _islower(int c);
 
 /* test for alphabetic character */
 int _isalpha(int c);
+
+/* print sign of number */
+int print_sign(int n);
