@@ -25,5 +25,8 @@ int print_last_digit(int);
 /* print every minute of the day */
 void jack_bauer(void);
 
-/* print every minute of the day */
+/* print 9 times table*/
 void times_table(void);
+
+/* add two integers */
+int add(int, int);
