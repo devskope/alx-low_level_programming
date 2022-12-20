@@ -51,3 +51,8 @@
 - [x] **10-add**
 - Write a function that adds two integers and returns the result.
 - Prototype: `int add(int, int);`
+
+- [x] **11-print_to_98**
+- Write a function that prints all natural numbers from n to 98, followed by a new line.
+- Prototype: `void print_to_98(int n);`
+- Numbers must be separated by a comma, followed by a space
