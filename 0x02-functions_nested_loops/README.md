@@ -2,7 +2,7 @@
 
 - [x] **0-putchar**
 - Write a program that prints _putchar, followed by a new line.
-- The program should return 0
+- The program should return `0`
 
 - [x] **1-alphabet**
 - Write a function that prints the alphabet, in lowercase, followed by a new line.
@@ -45,7 +45,7 @@
 - Prototype: `void jack_bauer(void);`
 
 - [x] **9-times_table**
-- Write a function that prints the 9 times table, starting with 0.
+- Write a function that prints the 9 times table, starting with `0`.
 - Prototype: `void times_table(void);`
 
 - [x] **10-add**
@@ -53,6 +53,11 @@
 - Prototype: `int add(int, int);`
 
 - [x] **11-print_to_98**
-- Write a function that prints all natural numbers from n to 98, followed by a new line.
+- Write a function that prints all natural numbers from n to `98`, followed by a new line.
 - Prototype: `void print_to_98(int n);`
 - Numbers must be separated by a comma, followed by a space
+
+- [x] **100-times_table**
+- Write a function that prints the n times table, starting with `0`.
+- Prototype: void print_times_table(int n);
+- If n is greater than `15` or less than `0` the function should not print anything
