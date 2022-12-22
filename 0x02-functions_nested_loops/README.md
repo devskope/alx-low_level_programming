@@ -67,3 +67,6 @@
 
 - [x] **102-fibonacci**
 - Write a program that prints the first 50 Fibonacci numbers, starting with `1` and `2`, followed by a new line
+
+- [x] **103-fibonacci**
+- Write a program that finds and prints the sum of the even-valued terms in the Fibonacci sequence whose values do not exceed `4,000,000`, followed by a new line.
