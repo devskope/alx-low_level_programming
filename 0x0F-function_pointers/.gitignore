@@ -1,0 +1,4 @@
+#  Ignore unnecessary files
+_putchar.c
+*main.c
+*.out
