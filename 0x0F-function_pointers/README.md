@@ -21,3 +21,11 @@
 
 - [x] **3-simple-ops**
 - Write a program that performs simple operations.
+
+- [x] **3-simple-ops**
+- Write a program that prints the opcodes of its own main function.
+  - Usage: `./main number_of_bytes`
+  - Output format:
+    - the opcodes should be printed in hexadecimal, lowercase
+    - each opcode is two char long
+    - listing ends with a new line
