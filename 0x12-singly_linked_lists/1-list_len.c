@@ -1,7 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * list_len - Return number of elements in list_t.
@@ -13,13 +10,14 @@
 
 size_t list_len(const list_t *h)
 {
-	int count = 0;
+	int i;
 
-	while (h)
+	i = 0;
+	while (h != NULL)
 	{
-		count++;
+
+		i++;
 		h = h->next;
 	}
-
-	return (count);
+	return (i);
 }

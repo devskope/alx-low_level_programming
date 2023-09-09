@@ -1,19 +1,23 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * free_list - free memory allocated for a list
  *
  * @head: pointer to the first node of the list to free
  */
+
 void free_list(list_t *head)
 {
-	if (head)
+	struct list_s *temp = NULL;
+	struct list_s *aux = NULL;
+
+	temp = head;
+	while (temp != NULL)
 	{
-		free_list(head->next);
-		if (head->str)
-			free(head->str);
-		free(head);
+		aux = temp->next;
+		free(temp->str);
+		free(temp);
+		temp = aux;
 	}
+	head = NULL;
 }

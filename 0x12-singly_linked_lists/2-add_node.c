@@ -1,24 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-/**
- * _strlen - returns length of a string.
- * @s : s is a character
- * Return: value is i
- */
-int _strlen(const char *s)
-{
-	int i = 0;
-
-	while ('\0' != s[i])
-	{
-		i++;
-	}
-
-	return (i);
-}
 
 /**
  * add_node - add new node at beginning of list_t.
@@ -28,16 +8,18 @@ int _strlen(const char *s)
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *add;
+	struct list_s *temp = NULL;
+	int i;
 
-	add = malloc(sizeof(list_t));
-	if (add == NULL)
+	temp = (struct list_s *)malloc(sizeof(struct list_s));
+	if (temp == NULL)
 		return (NULL);
-	add->str = strdup(str);
+	temp->str = strdup(str);
+	for (i = 0; str[i] != '\0'; i++)
+		;
+	temp->len = i;
+	temp->next = *head;
+	*head = temp;
 
-	add->len = _strlen(str);
-	add->next = *head;
-	*head = add;
-
-	return (add);
+	return (temp);
 }
